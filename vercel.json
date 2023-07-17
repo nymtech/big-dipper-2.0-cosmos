@@ -4,8 +4,5 @@
           "src": "/(.*)",
           "dest": "dist/index.js"
         }
-    ],
-    "redirects": [
-        { "source": "/", "destination": "/nym", "permanent": false }
     ]
   }

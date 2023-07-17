@@ -18,4 +18,13 @@ module.exports = nextTranslate({
     });
     return config;
   },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/nym',
+        permanent: false,
+      },
+    ]
+  },
 });
